@@ -1,0 +1,99 @@
+.productInf{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: flex-end;
+     .productInfCard{
+         padding-top: 40px;
+         width: 100%;
+         height: 100%;
+         display: flex;
+         flex-direction: column;
+         gap: 40px;
+         .productInfCardRow{
+             width: 100%;
+             display: flex;
+             flex-direction: column;
+             gap: 25px;
+             .productInfCardSendComment{
+                 width: 100%;
+                
+                 form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 22px;
+                    button{
+                        width: 240px;
+                        height: 41px;
+                        border: 0px;
+                        background: #FF6969;
+                        border-radius: 10px;
+                        color: #fff;
+                        font-size: 18px;
+                        &:hover{
+                            cursor:pointer;
+                            opacity: 0.8;
+                        }
+                        &:active{
+                            opacity: 0.5;
+                        }
+                    }
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 9px;
+                        label{
+                           font-size: 16px;
+                           font-weight: normal;
+                        }
+                        input{
+                            height: 40px;
+                            padding-left: 10px;
+                        }
+                        textarea{
+                            height: 174px;
+                        }
+
+                    }
+                 }
+ 
+             }
+             .productInfCardImg{
+                 width: 100%;
+                 height: 341px;
+                 img{
+                     width: 100%;
+                     height: 100%;
+                 }
+             }
+             .productInfDescription{
+                 width: 100%;
+                 display: flex;
+                 flex-direction: column;
+                 gap: 7px;
+                 .productInfCardTitle{
+                     font-size: 18px;
+                 }
+                 .productInfCardPrice{
+                     font-weight: bold;
+                     font-size: 18px;
+                 }
+             }
+             .productInfCardNav{
+                 width: 100%;
+                 display: flex;
+                 gap: 7px;
+                
+                 .productInfCardItem{
+                      font-size: 16px;
+                      border-bottom: 3px solid #E4E2E2;
+
+                 }
+             }
+         }
+     }
+}
+
+.active{
+    border-bottom: 3px solid #FF6969 !important;
+}

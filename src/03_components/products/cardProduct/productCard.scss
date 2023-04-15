@@ -1,0 +1,34 @@
+.productCard{
+    width: 353px;
+    height: 418px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border-radius: 10px;
+    .productCardPicture{
+        width: 100%;
+        height: 246px;
+        margin-bottom: 20px;
+        border: 1px solid #E6E6E6;
+        img{
+            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .productCardTitle{
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        &:hover{
+            cursor: pointer;
+            color: #FF6969;
+        }
+    }
+    .productCardPrice{
+        margin-left: 30px;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 34px;
+    }
+}

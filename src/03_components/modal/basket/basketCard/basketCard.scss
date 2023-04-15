@@ -1,0 +1,27 @@
+.basketCard{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+    .basketCardRow{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        img{
+            border: 1px solid #eeeeee;
+            border-radius: 5px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .basketCardRemoveBtn{
+        color: #FF6969;
+        font-weight: bold;
+    }
+    .imgBlock{
+        width: 138px;
+        height: 97px;
+        margin: 22px 0;
+        margin-right: 20px;
+    }
+}
